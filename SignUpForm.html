@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sign Up</title>
+</head>
+<body>
+    <form action="LoginForm.html" method="post" target="_blank" style="background-color: aqua;">
+        <h1>Sign Up</h1>
+        <label for="Email">Email</label>
+        <input type="email" name="Email" id="Email" placeholder="Type Your Email" required><br><br>
+        <label for="Password">Password</label>
+        <input type="password" name="Password" id="Password" placeholder="Enter Your Password" required><br><br>
+        <fieldset>
+            <legend>Gender</legend>
+            <label for="Male">Male</label>
+            <input type="radio" name="Gender" id="Male">
+            <br>
+            <label for="Female">Female</label>
+            <input type="radio" name="Gender" id="Female">
+        </fieldset>
+        <p>Your BIO: <textarea name="Your BIO" id="Your BIO" cols="60" rows="30"></textarea></p>
+        <input type="submit" value="Submit">
+        <input type="reset" value="Reset">
+    </form>
+</body>
+</html>
